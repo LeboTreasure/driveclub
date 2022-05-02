@@ -22,35 +22,25 @@
       <b-container class="bv-example-row"  fluid="sm">
         <b-row>
           <b-col>
-            <div class="first-card">
+            <b-card class="mb-2">
               <h3 class="subtitles">NEW RANGE</h3>
               <h1 class="title">LA FERRARI</h1>
               <a class="link">
                 <router-link to="/learn"> LEARN MORE </router-link>
               </a>
-            </div>
+            </b-card>
           </b-col>
 
           <b-col>
-            <div class="second-card">
+            <b-card class="mb-2">
               <img class="car" src="../assets/car-large.jpg" />
-            </div>
+            </b-card>
           </b-col>
         </b-row>
       </b-container>
 
       <div class="card-row"></div>
     </section>
-    <footer class="footer">
-      <div class="content">
-        <img class="logo" src="../assets/logo.svg" /> <br />
-        <img class="" src="../assets/facebook.svg" />
-        <img class="" src="../assets/instagram.svg" />
-        <img class="" src="../assets/twitter.svg" />
-        <img class="" src="../assets/linkedin.svg" />
-        <img class="" src="../assets/youtube.svg" />
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -85,7 +75,7 @@ export default {
   border: 2px solid white;
   padding-right: 2px;
   width: 50%;
-  .first-card {
+  .mb-2 {
     margin-top: 5px;
     .link {
       color: rgb(236, 16, 16);
@@ -95,7 +85,7 @@ export default {
       color: whitesmoke;
     }
   }
-  .second-card {
+  .mb-2 {
     .car {
       width: 40%;
       height: 30%;
@@ -111,11 +101,5 @@ export default {
 }
 .is-xl {
   font-size: 1.7rem;
-}
-.footer .content {
-  .logo {
-    display: flex;
-    padding-left: 10%;
-  }
 }
 </style>
