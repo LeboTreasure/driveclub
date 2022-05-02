@@ -10,35 +10,57 @@
             evaluation
           </p>
           <div class="buttons">
-            <a class="button is-xl is-dark"> Contact us </a>
+            <a class="button is-xl is-dark">
+              Contact us
+              <img src="../assets/chevron.svg" />
+            </a>
           </div>
         </div>
       </div>
     </section>
     <section class="content">
-      <div class="card-row">
-        <div class="first-card">
-          <h3 class="subtitles">NEW RANGE</h3>
-          <h1 class="title">LA FERRARI</h1>
-          <a class="link"> LEARN MORE </a>
-        </div>
-        <div class="second-card"></div>
-      </div>
+      <b-container class="bv-example-row"  fluid="sm">
+        <b-row>
+          <b-col>
+            <div class="first-card">
+              <h3 class="subtitles">NEW RANGE</h3>
+              <h1 class="title">LA FERRARI</h1>
+              <a class="link">
+                <router-link to="/learn"> LEARN MORE </router-link>
+              </a>
+            </div>
+          </b-col>
+
+          <b-col>
+            <div class="second-card">
+              <img class="car" src="../assets/car-large.jpg" />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+
+      <div class="card-row"></div>
     </section>
     <footer class="footer">
       <div class="content">
-       <img class="logo" src="../assets/logo.svg">
-
+        <img class="logo" src="../assets/logo.svg" /> <br />
+        <img class="" src="../assets/facebook.svg" />
+        <img class="" src="../assets/instagram.svg" />
+        <img class="" src="../assets/twitter.svg" />
+        <img class="" src="../assets/linkedin.svg" />
+        <img class="" src="../assets/youtube.svg" />
       </div>
     </footer>
   </div>
 </template>
+
 <script>
 export default {
   name: "home",
   components: {},
 };
 </script>
+
 <style lang="scss" scoped>
 .hero {
   text-align: left;
@@ -59,7 +81,7 @@ export default {
 .hero-body .paragraph {
   color: white;
 }
-.card-row {
+.bv-example-row {
   border: 2px solid white;
   padding-right: 2px;
   width: 50%;
@@ -73,12 +95,19 @@ export default {
       color: whitesmoke;
     }
   }
+  .second-card {
+    .car {
+      width: 40%;
+      height: 30%;
+    }
+  }
 }
 .button {
   border: 3px solid rgb(202, 50, 50);
   background-color: rgb(113, 61, 61);
   margin-right: 50px;
   padding-right: 50px;
+  color: white;
 }
 .is-xl {
   font-size: 1.7rem;

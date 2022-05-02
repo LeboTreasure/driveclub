@@ -2,8 +2,8 @@
   <div id="app">
     <nav>
       <img class="logo" src="./assets/logo.svg">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">HOME</router-link> |
+      <router-link to="/contact">CONTACT US</router-link>
     </nav>
     <router-view/>
   </div>
@@ -11,12 +11,13 @@
 
 <style lang="scss">
 #app {
-  background-image: url('./assets/car-large.jpg');
+  background-image: url('./assets/hero-home.jpg');
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
 
 nav {
