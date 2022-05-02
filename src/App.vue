@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav>
+      <img class="logo" src="./assets/logo.svg">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
@@ -10,6 +11,7 @@
 
 <style lang="scss">
 #app {
+  background-image: url('./assets/car-large.jpg');
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,6 +21,12 @@
 
 nav {
   padding: 30px;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+  }
 
   a {
     font-weight: bold;
