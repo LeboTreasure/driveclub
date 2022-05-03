@@ -10,8 +10,8 @@
               <h3 class="title">
                 NEW RANGE
               </h3>
-              <h1 class="subtitle">
-                  LA FERRARI
+              <h1>
+                    LA FERRARI
               </h1>
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur doloremque blanditiis? Voluptate, cum temporibus nihil est ut aliquid suscipit ab, dolores, eum natus obcaecati modi blanditiis fugit voluptatibus unde?

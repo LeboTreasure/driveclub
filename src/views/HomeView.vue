@@ -9,17 +9,17 @@
             Discover the benefits of DRIVECLUB Trade-in and get a free vehicle
             evaluation
           </p>
-          <div class="buttons">
-            <a class="button is-xl is-dark">
+          <div>
+            <b-button class="button">
               Contact us
               <img src="../assets/chevron.svg" />
-            </a>
+            </b-button>
           </div>
         </div>
       </div>
     </section>
     <section class="content">
-      <b-container class="bv-example-row"  fluid="sm">
+      <b-container class="bv-example-row" fluid="sm">
         <b-row>
           <b-col>
             <b-card class="mb-2">
@@ -45,9 +45,10 @@
 </template>
 
 <script>
+
 export default {
   name: "home",
-  components: {},
+  components: {}
 };
 </script>
 
@@ -59,6 +60,9 @@ export default {
   background-repeat: no-repeat;
   height: 100%;
   padding-left: 15%;
+}
+.content {
+  background-position: left;
 }
 .hero-body .title {
   font-size: 80px;
